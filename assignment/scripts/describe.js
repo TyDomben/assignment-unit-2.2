@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// This code is saying "hello" in one of two ways.
+// First we set a variable name,(DECLARE) and set that to equal Dane
+// Then we use booleon logic to output based on that variable -
+// - if the name variable EXACTLY equals Mary, (which it does not) the console will log 'Hi, Mary!'
+// - otherwise (ELSE) it will log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,16 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We start with a variable, secret
+// - then another variable "code"
+// - code is set initially to 123
+// then we engage in some logic 
+// - if code is PRECISELY 123 then the secret we DECLARED! is assinged the value "super"
+// the code is then doubled, 
+// we are then on to the next step of computer logic -
+// we have now doubled 123 - meaning that code equals 246
+// "code" is not greater than 250 and secret is not assinged to duper
+// the console logs "secret" at the end by printing super
 
 //CODE
 /*
@@ -70,10 +77,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we set out some variables - isStudent is true, age = 34, and zip = 55407
+// then we enter a logic loop with 4 possible outcomes
+// if the variable isStudent is precesely true and also zip is greater than 80000 
+// - then log You're a student on the West Coast
+// else if isStudent is precesely false or age is less than 30 
+// - then log What are your hobbies
+// else log welcome to prime
+// the last one is logging How about the weather?
 
 //CODE
 /*
@@ -131,11 +142,14 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
+// colorOne should be "blue"
 let colorTwo = 'blue';
+//colorTwo should be "red"
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// colorTwo should also be "purple"
 }
 */
 
@@ -148,6 +162,8 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+// should be && here not ||
+// conversely we could eliminate the time condition atogether, it's a constant so it can't change
   console.log('throw away the food!');
 }
 */
@@ -162,8 +178,10 @@ const minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
+  // this line should be console.log('enter')
 } else {
   console.log('enter');
+  // this line should be console.log('no entry')
 }
 */
 
